@@ -1,0 +1,27 @@
+exports.mockCourseData = {
+  name: "bachata",
+  previousKnowledge: "beginner",
+  instructors: ["Jeremy Davila", "Linnea Persson"],
+  startDate: 2023 - 01 - 01,
+  endDate: 2023 - 02 - 01,
+  startTime: "20:00",
+  endTime: "21:00",
+  daysOfWeek: "MONDAY",
+  occasions: 10,
+  price: 2000,
+  danceType: "SALSA",
+  level: 1,
+  term: "VT",
+  classLengthMins: 60,
+  couplesDance: true,
+  maxParticipants: 30,
+  booking: [
+    {
+      name: "Sanna",
+      partner: "Joakim",
+      email: "sanna.rossang@coolgal.com",
+      danceRole: "LEADER",
+      discount: "STUDENT",
+    },
+  ],
+};
